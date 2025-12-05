@@ -46,24 +46,24 @@ FlutterのAnimationControllerとTickerを使った連続的なアニメーショ
 
 ## ⚙️ 実行方法
 1.本リポジトリをクローンします。
-'''bash
+```bash
 git clone [リポジトリのURL]
-'''
+```
 
 2.プロジェクトディレクトリに移動します。
-'''bash
+```bash
 cd [プロジェクト名]
-'''
+```
 
 3.必要なパッケージをインストールします。
-'''bash
+```bash
 flutter pub get
-'''
+```
 
 4.macOSシミュレーターまたは実機で起動します。
-'''bash
+```bash
 flutter run
-'''
+```
 
 
 ※各アプリを実行するには、lib/main.dart の home: に対応するクラス（例: FreeFallScreen(), DoublePendulumScreen() など）を指定してビルドし直してください。
